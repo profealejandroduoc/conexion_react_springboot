@@ -17,14 +17,14 @@ Instalar axios
    npm run dev
    ```
 
-5. Abre el navegador en la URL indicada por la terminal (por defecto `http://localhost:5173`). La pámgina no debería funcionatr y estar bloqueada por CORS
+5. Abre el navegador en la URL indicada por la terminal (por defecto `http://localhost:5173`). La página no debería funcionatr y estar bloqueada por CORS
 
 6. Para corregir esto deberemos agregar al proyecto de SpringBoot lo siguiente:
 
 crea una carpeta *config* en la raiz del proyecto al mismo nivel de las carpeta controller, repository, etc.
 `.....src\main\java\com\pruebas\unitarias\config`
 
-Crea un archivo llamado *CorsConfig.java*9 con el siguiente código:
+Crea un archivo llamado *CorsConfig.java* con el siguiente código:
 
 ```java
 package com.pruebas.unitarias.config;
