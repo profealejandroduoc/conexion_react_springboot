@@ -1,6 +1,6 @@
 # Conexión aplicación React con SpringBoot
 
-Cada página interactúa con la API de Spring Boot utilizando la librería `axios` y un servicio centralizado (`src/services/mascotaService.js`).
+Cada página interactúa con la API de Spring Boot utilizando la librería `axios` y un servicio centralizado (`src/services/mascota.service.ts`).
 
 Instalar axios
 `npm install axios`
